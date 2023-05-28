@@ -1,0 +1,1 @@
+sudo docker build -t gses2-btc-application -f docker/Dockerfile .

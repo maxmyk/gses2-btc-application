@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BTC to UAH</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header class="main">
+        <h1>Simple BTC to UAH Exchange Rate Service</h1>
+        <h3><b class="gses-big">GSES2</b> BTC application</h3>
+    </header>
+
+    <section>
+        <h2>Get Current Rate</h2>
+        <button onclick="getCurrentRate()">Get Rate</button>
+        <p id="rateResult" class="result"></p>
+    </section>
+
+    <section>
+        <h2>Subscribe Email</h2>
+        <input type="email" id="emailInput" placeholder="Email">
+        <button onclick="subscribeEmail()">Subscribe</button>
+        <p id="subscribeResult" class="result"></p>
+    </section>
+
+    <section>
+        <h2>Send Rate Emails</h2>
+        <button onclick="sendRateEmails()">Send Emails</button>
+        <p id="sendEmailsResult" class="result"></p>
+    </section>
+</body>
+
+</html>
